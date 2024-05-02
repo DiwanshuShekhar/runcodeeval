@@ -1,0 +1,100 @@
+{"model_name": "phi-2", "task_id": "codeeval-0", "total": 25, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-1", "error": "NameError"}
+{"model_name": "phi-2", "task_id": "codeeval-2", "error": "Error"}
+{"model_name": "phi-2", "task_id": "codeeval-3", "error": "Error"}
+{"model_name": "phi-2", "task_id": "codeeval-4", "total": 4, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-5", "total": 3, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-6", "total": 4, "failed": [3]}
+{"model_name": "phi-2", "task_id": "codeeval-7", "total": 7, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-8", "error": "Error"}
+{"model_name": "phi-2", "task_id": "codeeval-9", "total": 2, "failed": [1]}
+{"model_name": "phi-2", "task_id": "codeeval-10", "total": 4, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-11", "total": 2, "failed": [1]}
+{"model_name": "phi-2", "task_id": "codeeval-12", "total": 2, "failed": [1]}
+{"model_name": "phi-2", "task_id": "codeeval-13", "error": "NameError"}
+{"model_name": "phi-2", "task_id": "codeeval-14", "total": 9, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-15", "total": 2, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-16", "error": "NameError"}
+{"model_name": "phi-2", "task_id": "codeeval-17", "total": 6, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-18", "error": "Error"}
+{"model_name": "phi-2", "task_id": "codeeval-19", "error": "Error"}
+{"model_name": "phi-2", "task_id": "codeeval-20", "total": 5, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-21", "total": 1, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-22", "total": 5, "failed": [1, 2]}
+{"model_name": "phi-2", "task_id": "codeeval-23", "total": 3, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-24", "total": 6, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-25", "error": "NameError"}
+{"model_name": "phi-2", "task_id": "codeeval-26", "total": 2, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-27", "total": 7, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-28", "total": 12, "failed": [2]}
+{"model_name": "phi-2", "task_id": "codeeval-29", "error": "Error"}
+{"model_name": "phi-2", "task_id": "codeeval-30", "total": 29, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-31", "total": 5, "failed": [0, 3]}
+{"model_name": "phi-2", "task_id": "codeeval-32", "error": "Error"}
+{"model_name": "phi-2", "task_id": "codeeval-33", "total": 2, "failed": [1]}
+{"model_name": "phi-2", "task_id": "codeeval-34", "total": 4, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-35", "total": 4, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-36", "error": "Error"}
+{"model_name": "phi-2", "task_id": "codeeval-37", "error": "Error"}
+{"model_name": "phi-2", "task_id": "codeeval-38", "total": 3, "failed": [1, 2]}
+{"model_name": "phi-2", "task_id": "codeeval-39", "total": 4, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-40", "total": 9, "failed": [1, 2, 3, 4, 5, 6, 7, 8]}
+{"model_name": "phi-2", "task_id": "codeeval-41", "error": "SyntaxError"}
+{"model_name": "phi-2", "task_id": "codeeval-42", "total": 5, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-43", "error": "NameError"}
+{"model_name": "phi-2", "task_id": "codeeval-44", "total": 3, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-45", "total": 4, "failed": [3]}
+{"model_name": "phi-2", "task_id": "codeeval-46", "total": 26, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-47", "error": "Error"}
+{"model_name": "phi-2", "task_id": "codeeval-48", "error": "NameError"}
+{"model_name": "phi-2", "task_id": "codeeval-49", "total": 3, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-50", "error": "Error"}
+{"model_name": "phi-2", "task_id": "codeeval-51", "error": "Error"}
+{"model_name": "phi-2", "task_id": "codeeval-52", "error": "Error"}
+{"model_name": "phi-2", "task_id": "codeeval-53", "total": 1, "failed": [0]}
+{"model_name": "phi-2", "task_id": "codeeval-54", "total": 5, "failed": [1]}
+{"model_name": "phi-2", "task_id": "codeeval-55", "error": "NameError"}
+{"model_name": "phi-2", "task_id": "codeeval-56", "total": 1, "failed": [0]}
+{"model_name": "phi-2", "task_id": "codeeval-57", "total": 3, "failed": [0, 2]}
+{"model_name": "phi-2", "task_id": "codeeval-58", "error": "NameError"}
+{"model_name": "phi-2", "task_id": "codeeval-59", "error": "NameError"}
+{"model_name": "phi-2", "task_id": "codeeval-60", "total": 4, "failed": [0, 1, 2]}
+{"model_name": "phi-2", "task_id": "codeeval-61", "total": 5, "failed": [0, 1, 2, 4]}
+{"model_name": "phi-2", "task_id": "codeeval-62", "total": 5, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-63", "total": 4, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-64", "total": 2, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-65", "total": 2, "failed": [0, 1]}
+{"model_name": "phi-2", "task_id": "codeeval-66", "error": "NameError"}
+{"model_name": "phi-2", "task_id": "codeeval-67", "total": 9, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-68", "total": 2, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-69", "total": 1, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-70", "total": 2, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-71", "error": "TimeoutError"}
+{"model_name": "phi-2", "task_id": "codeeval-72", "total": 8, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-73", "total": 5, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-74", "total": 5, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-75", "error": "NameError"}
+{"model_name": "phi-2", "task_id": "codeeval-76", "total": 4, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-77", "total": 1, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-78", "error": "NameError"}
+{"model_name": "phi-2", "task_id": "codeeval-79", "total": 4, "failed": [0]}
+{"model_name": "phi-2", "task_id": "codeeval-80", "total": 2, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-81", "total": 7, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-82", "error": "Error"}
+{"model_name": "phi-2", "task_id": "codeeval-83", "total": 3, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-84", "error": "Error"}
+{"model_name": "phi-2", "task_id": "codeeval-85", "error": "NameError"}
+{"model_name": "phi-2", "task_id": "codeeval-86", "error": "NameError"}
+{"model_name": "phi-2", "task_id": "codeeval-87", "total": 3, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-88", "total": 3, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-89", "error": "NameError"}
+{"model_name": "phi-2", "task_id": "codeeval-90", "total": 1, "failed": [0]}
+{"model_name": "phi-2", "task_id": "codeeval-91", "error": "NameError"}
+{"model_name": "phi-2", "task_id": "codeeval-92", "total": 2, "failed": [1]}
+{"model_name": "phi-2", "task_id": "codeeval-93", "total": 1, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-94", "error": "Error"}
+{"model_name": "phi-2", "task_id": "codeeval-95", "total": 4, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-96", "total": 2, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-97", "total": 1, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-98", "total": 1, "failed": []}
+{"model_name": "phi-2", "task_id": "codeeval-99", "error": "Error"}
