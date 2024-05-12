@@ -1,0 +1,213 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform"
+  },
+  "@type": "sc:Dataset",
+  "name": "CodeEval",
+  "description": "CodeEval is an innovative, pedagogy-inspired benchmarking dataset that mirrors the evaluation processes encountered in academic programming courses. It assesses LLMs across 27 distinct aspects of Python programming at three proficiency levels: beginner, intermediate, and advanced. The RunCodeEval software framework facilitates model evaluation using the CodeEval dataset. The framework yields detailed insights into the strengths and weaknesses of code-trained models",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "citeAs": "Shekhar, D., & Mahoor, D. M. (2024). CodeEval: Pedagogy Based Benchmark Dataset for Evaluation Of Large Language Models Trained On Code [Data set]. Zenodo. https://doi.org/10.5281/zenodo.11100073",
+  "datePublished": "2024-05-02 00:00:00",
+  "keywords": [
+    "benchmark",
+    "code",
+    "python"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "publisher": [
+    {
+      "@type": "sc:Person",
+      "name": "Diwanshu Shekhar",
+      "email": "diwanshu.shekhar@du.edu"
+    },
+    {
+      "@type": "sc:Person",
+      "name": "Dr. Mohammad Mahoor",
+      "email": "mohammad.mahoor@du.edu"
+    }
+  ],
+  "url": "https://zenodo.org/doi/10.5281/zenodo.11100072",
+  "version": "1.0.0",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "benchmark-file",
+      "name": "benchmark-file",
+      "description": "The dataset is hosted on Zenodo in a single JSONL file.",
+      "contentUrl": "https://zenodo.org/records/11100073/files/codeeval_v1.jsonl",
+      "encodingFormat": "application/jsonlines",
+      "sha256": "b0730787562a52d1e56a4790087aa68688d87994bbc9271e34ec50c3aa722425"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "jsonl",
+      "name": "jsonl",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "jsonl/task_id",
+          "name": "task_id",
+          "description": "Uniqiue identifier for the problem.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "benchmark-file"
+            },
+            "extract": {
+              "column": "task_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "jsonl/problem",
+          "name": "problem",
+          "description": "Natural language description of the problem.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "benchmark-file"
+            },
+            "extract": {
+              "column": "problem"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "jsonl/topic",
+          "name": "topic",
+          "description": "The topic of the problem.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "benchmark-file"
+            },
+            "extract": {
+              "column": "topic"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "jsonl/object",
+          "name": "object",
+          "description": "The problem type - function or class.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "benchmark-file"
+            },
+            "extract": {
+              "column": "object"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "jsonl/complexity",
+          "name": "complexity",
+          "description": "The difficulty level of the problem.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileSet": {
+              "@id": "benchmark-file"
+            },
+            "extract": {
+              "column": "complexity"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "jsonl/canonical_solution",
+          "name": "canonical_solution",
+          "description": "The canonical solution to the problem.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "benchmark-file"
+            },
+            "extract": {
+              "column": "canonical_solution"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "jsonl/name",
+          "name": "name",
+          "description": "The name of the entry-point function or class",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "benchmark-file"
+            },
+            "extract": {
+              "column": "name"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "jsonl/tests",
+          "name": "tests",
+          "description": "The name of the entry-point function or class",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "benchmark-file"
+            },
+            "extract": {
+              "column": "tests"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
