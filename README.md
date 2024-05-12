@@ -3,7 +3,7 @@
 CodeEval is an innovative, pedagogy-inspired benchmarking dataset that mirrors the evaluation processes encountered in academic programming courses. It assesses LLMs across 27 distinct aspects of Python programming at three proficiency levels: beginner, intermediate, and advanced. The RunCodeEval software framework facilitates model evaluation using the CodeEval dataset. The framework yields detailed insights into the strengths and weaknesses of code-trained models
 
 # How to use RunCodeEval Framework
-RunCodeEval is self-contained and doesn't need any external dependencies to run evaluation. In order to run evaluation, develop an input file with LLM generated solutions for to each problem in the CodeEval benchmarking. An example input file is present in [phi2_candidates.jsonl](completions/phi2_candidates.jsonl). 
+RunCodeEval is self-contained and doesn't need any external dependencies to run evaluation. In order to run evaluation, develop an input file with LLM generated solutions for to each problem in the CodeEval benchmarking. Example input files generated using different LLMs are present in the [completions folder](completions) of this repo. Running the evaluation requires path to `completion file` and the path to the `CodeEval benchmark` which can be downloaded from it's permanent doi [link](https://doi.org/10.5281/zenodo.11100073). The following command runs evaluation using [this input file](completions/phi2_candidates.jsonl) and the downloaded CodeEval benchmark dataset which we recommend to put in the [benchmark folder](runcodeeval/benchmark) of this repo.
 
 To run the evaluation, run the following command - 
 ```
@@ -19,4 +19,4 @@ python driver.py -fto codeeval-20 completions/phi2_candidates.jsonl runcodeeval/
 The RunCodeEval framework has built-in log which is generated as `app.log` in the project root directory.
 
 # CodeEval Benchmark dataset
-While RunCodeFramework constitutes the [CodeEval benchmark dataset](runcodeeval/benchmark/codeeval_v1.jsonl), it can also be freely and independently downloaded from its permanent doi [link](https://doi.org/10.5281/zenodo.11100073) 
+We intentionally removed CodeEval benchmark dataset from this repository to prevent contamination of code-trained LLMs that are trained on Github. We encourage the community to refrain from adding CodeEval benchmark dataset to any public GitHub repositories. CodeEval can be freely and independently downloaded from its permanent doi [link](https://doi.org/10.5281/zenodo.11100073) 
