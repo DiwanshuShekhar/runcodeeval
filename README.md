@@ -1,11 +1,11 @@
 # RunCodeEval: A framework to evaluate LLMs trained on code using CodeEval benchmark dataset
 
-CodeEval is an innovative, pedagogy-inspired benchmarking dataset that mirrors the evaluation processes encountered in academic programming courses. It assesses LLMs across 27 distinct aspects of Python programming at three proficiency levels: beginner, intermediate, and advanced. The RunCodeEval software framework facilitates model evaluation using the CodeEval dataset. The framework yields detailed insights into the strengths and weaknesses of code-trained models
+CodeEval is an innovative, pedagogy-based benchmarking dataset that targeted evaluation of code-trained LLMs. It assesses LLMs across 27 distinct aspects of Python programming at three proficiency levels: beginner, intermediate, and advanced. CodeEval allows for comprehensive evaluation as it includes both function and class level tasks. The RunCodeEval software framework facilitates model evaluation using the CodeEval dataset. The framework yields detailed insights into the strengths and weaknesses of code-trained models
 
 # How to use RunCodeEval Framework
-RunCodeEval is self-contained and doesn't need any external dependencies to run evaluation. In order to run evaluation, develop an input file with LLM generated solutions for to each problem in the CodeEval benchmarking. Example input files generated using different LLMs are present in the [completions folder](completions) of this repo. Running the evaluation requires path to `completion file` and the path to the `CodeEval benchmark` which can be downloaded from it's permanent doi [link](https://doi.org/10.5281/zenodo.11100073). The following command runs evaluation using [this input file](completions/phi2_candidates.jsonl) and the downloaded CodeEval benchmark dataset which we recommend to put in the [benchmark folder](runcodeeval/benchmark) of this repo.
+RunCodeEval is self-contained and doesn't need any external dependencies to run evaluation. In order to run evaluation, develop an input file with LLM generated solutions to each problem in the CodeEval benchmark dataset. Example input files generated using different LLMs are present in the [completions folder](completions) of this repo. Running the evaluation requires path to `completion file` and the path to the `CodeEval benchmark` which can be downloaded from it's permanent doi [link](https://doi.org/10.5281/zenodo.11100073). The following command runs evaluation using [this input file](completions/phi2_candidates.jsonl) and the downloaded CodeEval benchmark dataset which we recommend to put in the [benchmark folder](runcodeeval/benchmark) of this repo.
 
-To run the evaluation, run the following command - 
+The following example shows how to run evaluation with CodeEval - 
 ```
 python driver.py -ft completions/phi2_candidates.jsonl runcodeeval/benchmark/codeeval_v1.jsonl phi-2
 ```
