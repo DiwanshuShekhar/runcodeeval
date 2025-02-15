@@ -1,0 +1,99 @@
+{"task_id": "codeeval-0", "solution": "def process_argument(self, _arg):\n        return _arg.process_argument()\n    def process_argument(self, _arg):\n        return None\n    def process_argument(self, _arg):\n        return None\n    def process_argument(self, _arg):\n        return None\n    def process_argument(self, _arg):"}
+{"task_id": "codeeval-1", "solution": "no submission"}
+{"task_id": "codeeval-2", "solution": "class SentryApp(SentryBase):\n    \n\n    def __init__(self, user):\n        SentryBase.__init__(self, user)\n\n        self.name = str(self.user.name)\n        self.handle = str(self.user.handle)\n        self.token = str(self.user.token)\n        self.environment = str(self.user.environment)\n        self.app_url = str(self.user.app_url)\n        self.auth_url = str(self.user.auth_url)\n        self.internal_url = str(self.user.internal_url)\n        self.description = str(self.user.description)\n        self.last_version = str(self.user.last_version)"}
+{"task_id": "codeeval-3", "solution": "no submission"}
+{"task_id": "codeeval-4", "solution": "def generate_pairs(self, arg1, arg2):\npairs = []\nfor x in arg1:\n    if x == arg2[0]:\n        pairs.append(arg2[1:])\n    else:\n        pairs.append([x, arg2[0]])\nreturn pairs"}
+{"task_id": "codeeval-5", "solution": "def apply_to_list(list, value):\n    return [x for x in list if x == value]"}
+{"task_id": "codeeval-6", "solution": "no submission"}
+{"task_id": "codeeval-7", "solution": "no submission"}
+{"task_id": "codeeval-8", "solution": "def check_arguments(function, argument1, argument2, argument3):\n    return (isinstance(argument1, tuple) and isinstance(argument2, (int, long)) and isinstance(argument3, tuple))"}
+{"task_id": "codeeval-9", "solution": "no submission"}
+{"task_id": "codeeval-10", "solution": "no submission"}
+{"task_id": "codeeval-11", "solution": "no submission"}
+{"task_id": "codeeval-12", "solution": "no submission"}
+{"task_id": "codeeval-13", "solution": "no submission"}
+{"task_id": "codeeval-14", "solution": "no submission"}
+{"task_id": "codeeval-15", "solution": "no submission"}
+{"task_id": "codeeval-16", "solution": "def remove_last_item(self, *args):\n    if not self.size():\n        return []\n    return self.list.__getitem__(self.size() - 1)"}
+{"task_id": "codeeval-17", "solution": "no submission"}
+{"task_id": "codeeval-18", "solution": "no submission"}
+{"task_id": "codeeval-19", "solution": "no submission"}
+{"task_id": "codeeval-20", "solution": "no submission"}
+{"task_id": "codeeval-21", "solution": "no submission"}
+{"task_id": "codeeval-22", "solution": "no submission"}
+{"task_id": "codeeval-23", "solution": "no submission"}
+{"task_id": "codeeval-24", "solution": "no submission"}
+{"task_id": "codeeval-25", "solution": "no submission"}
+{"task_id": "codeeval-26", "solution": "no submission"}
+{"task_id": "codeeval-27", "solution": "no submission"}
+{"task_id": "codeeval-28", "solution": "no submission"}
+{"task_id": "codeeval-29", "solution": "no submission"}
+{"task_id": "codeeval-30", "solution": "def get_unicode_code_points_for_string(string):\n    from java.lang import String, StringBuilder\n    from java.util import StringTokenizer\n    from java.util import NumberFormatException\n    from java.util.function import IntPredicate, Predicate\n\n    def get_unicode_code_points(string):\n        from java.lang import StringBuilder\n        from java.util import StringBuilder"}
+{"task_id": "codeeval-31", "solution": "def sort_descending(l):\n    return sorted(l(dict.keys()), reverse=reverse)"}
+{"task_id": "codeeval-32", "solution": ">>>     print(v)\nVector([5, 6, 7])\n>>>     print(v.x)\n5\n>>>     print(v.y)\n6\n>>>     print(v.z)\n7"}
+{"task_id": "codeeval-33", "solution": "no submission"}
+{"task_id": "codeeval-34", "solution": "no submission"}
+{"task_id": "codeeval-35", "solution": "for key in self.dictionaries.keys():\nif key not in dict_1 and key not in dict_2:\n    return dict_1[key]\nreturn dict_2[self.dictionaries.keys()[0]]"}
+{"task_id": "codeeval-36", "solution": "no submission"}
+{"task_id": "codeeval-37", "solution": "class A(B):\n    pass\nclass B(A):\n    pass"}
+{"task_id": "codeeval-38", "solution": "import awaitable\nimport sys\n\n@awaitable\ndef process_single_sentence(s, i):\n    return {\"sentence\": s, \"location_index\": i}\n\n@awaitable\ndef process_many_sentences(s, i):\n    all_results = []\n    for word in s:\n        all_results.append(await process_single_sentence(word, i))\n    return all_results"}
+{"task_id": "codeeval-39", "solution": "def add_list_to_tuple(lst, tup):\n    if isinstance(tup, tuple):\n        t = tup\n    else:\n        t = [tup]"}
+{"task_id": "codeeval-40", "solution": "def list_to_string(args):\n    return \", \".join(map(lambda x: str(x), args))"}
+{"task_id": "codeeval-41", "solution": "def sort_list(input):\n    return sorted(set(map(int, input)), key=int.isdigit)"}
+{"task_id": "codeeval-42", "solution": "no submission"}
+{"task_id": "codeeval-43", "solution": "no submission"}
+{"task_id": "codeeval-44", "solution": "no submission"}
+{"task_id": "codeeval-45", "solution": "no submission"}
+{"task_id": "codeeval-46", "solution": "no submission"}
+{"task_id": "codeeval-47", "solution": "no submission"}
+{"task_id": "codeeval-48", "solution": "no submission"}
+{"task_id": "codeeval-49", "solution": "no submission"}
+{"task_id": "codeeval-50", "solution": "no submission"}
+{"task_id": "codeeval-51", "solution": "no submission"}
+{"task_id": "codeeval-52", "solution": "no submission"}
+{"task_id": "codeeval-53", "solution": "no submission"}
+{"task_id": "codeeval-55", "solution": "no submission"}
+{"task_id": "codeeval-56", "solution": "no submission"}
+{"task_id": "codeeval-57", "solution": "no submission"}
+{"task_id": "codeeval-58", "solution": "no submission"}
+{"task_id": "codeeval-59", "solution": "no submission"}
+{"task_id": "codeeval-60", "solution": "no submission"}
+{"task_id": "codeeval-61", "solution": "no submission"}
+{"task_id": "codeeval-62", "solution": "no submission"}
+{"task_id": "codeeval-63", "solution": "no submission"}
+{"task_id": "codeeval-64", "solution": "no submission"}
+{"task_id": "codeeval-65", "solution": "no submission"}
+{"task_id": "codeeval-66", "solution": "no submission"}
+{"task_id": "codeeval-67", "solution": "no submission"}
+{"task_id": "codeeval-68", "solution": "no submission"}
+{"task_id": "codeeval-69", "solution": "no submission"}
+{"task_id": "codeeval-70", "solution": "no submission"}
+{"task_id": "codeeval-71", "solution": "no submission"}
+{"task_id": "codeeval-72", "solution": "no submission"}
+{"task_id": "codeeval-73", "solution": "no submission"}
+{"task_id": "codeeval-74", "solution": "import copy\ndef deep_copy_list(list_of_list):\n    return copy.deepcopy(list_of_list)"}
+{"task_id": "codeeval-75", "solution": "no submission"}
+{"task_id": "codeeval-76", "solution": "no submission"}
+{"task_id": "codeeval-77", "solution": "no submission"}
+{"task_id": "codeeval-78", "solution": "class User:\n    def __init__(self, name, handle):\n        self.name = name\n        self.handle = handle"}
+{"task_id": "codeeval-79", "solution": "no submission"}
+{"task_id": "codeeval-80", "solution": "no submission"}
+{"task_id": "codeeval-81", "solution": "no submission"}
+{"task_id": "codeeval-82", "solution": "no submission"}
+{"task_id": "codeeval-83", "solution": "no submission"}
+{"task_id": "codeeval-84", "solution": "no submission"}
+{"task_id": "codeeval-85", "solution": "no submission"}
+{"task_id": "codeeval-86", "solution": "no submission"}
+{"task_id": "codeeval-87", "solution": "no submission"}
+{"task_id": "codeeval-88", "solution": "class UniqueList(list):\n    def __init__(self, *args, **kw):\n        raise ValueError"}
+{"task_id": "codeeval-89", "solution": "no submission"}
+{"task_id": "codeeval-90", "solution": "no submission"}
+{"task_id": "codeeval-91", "solution": "no submission"}
+{"task_id": "codeeval-92", "solution": "no submission"}
+{"task_id": "codeeval-93", "solution": "no submission"}
+{"task_id": "codeeval-94", "solution": "no submission"}
+{"task_id": "codeeval-95", "solution": "no submission"}
+{"task_id": "codeeval-96", "solution": "no submission"}
+{"task_id": "codeeval-97", "solution": "no submission"}
+{"task_id": "codeeval-98", "solution": "no submission"}
+{"task_id": "codeeval-99", "solution": "no submission"}

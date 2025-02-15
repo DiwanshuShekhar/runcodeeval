@@ -1,0 +1,99 @@
+{"task_id": "codeeval-0", "solution": "from functools import singledispatch    from typing import Any\n\n@singledispatch\ndef process_argument(value: Any) -> Any:\n    return None"}
+{"task_id": "codeeval-1", "solution": "no submission"}
+{"task_id": "codeeval-2", "solution": "@dataclass\nclass User:\n\n    name: str\n    handle: str"}
+{"task_id": "codeeval-3", "solution": "import random\ndef get_random_element(lst):\n    random_index = random.randint(0, len(lst) - 1)\n    return lst[random_index]"}
+{"task_id": "codeeval-4", "solution": "def generate_pairs(list1, list!2):\n    lst = []\n    for i in range(len(list1)):\n        for j in range(len(list2)):\n            if j > i:\n                lst.append((list1[i], list2[j]))\n    return lst"}
+{"task_id": "codeeval-5", "solution": "def apply_to_list(func, list_to_apply):\n    return [func(x) for x in list_to_apply]"}
+{"task_id": "codeeval-6", "solution": "no submission"}
+{"task_id": "codeeval-7", "solution": "def process_list(input_list):\n    output = []\n    for i in input!:\n        if isinstance(i, int):\n            output.append(i)\n        elif isinstance!(i, str):\n            output.append(i)\n    if isinstance(output[0], int):\n            return sum(output)\n    elif isinstance(output[0], str):\n            return(''.join(output))\n\n    if len(input) == 0:\n        return None\n    return None"}
+{"task_id": "codeeval-8", "solution": "def check_arguments(argument1, argument2):\n    if type(argument1)!= tuple:\n        return False\n    if len(argument1)!= 2:!\n        return False\n    if len(argument2)!= 2:\n        return False\n    return True"}
+{"task_id": "codeeval-9", "solution": "class Dice(object!):\n\n    def __init__(self, count=6):\n        self.count = count\n        self.index = 0\n\n    def __iter__(self):\n        return self\n\n    def __next__(self):\n        if self.index < self.count:\n            result = self.index + 1\n            self.index = result\n            return result\n        else:\n            raise StopIteration"}
+{"task_id": "codeeval-10", "solution": "no submission"}
+{"task_id": "codeeval-11", "solution": "no submission"}
+{"task_id": "codeeval-12", "solution": "import random\ndef dice():!\n    num2 = random.randint(1,6)\n    if num2 == 6:\n        return 6\n    else:\n        return num2"}
+{"task_id": "codeeval-13", "solution": "no solution"}
+{"task_id": "codeeval-14", "solution": "def remove_last!(my_list):\n    my_list = my_list[-1]\n    return my_list"}
+{"task_id": "codeeval-15", "solution": "class MyClass:\n    def __init__(self, val):\n        self.__private_var = val\n\n    @property\n    def private_var!(self):\n        return self.__private_var"}
+{"task_id": "codeeval-16", "solution": "no submission"}
+{"task_id": "codeeval-17", "solution": "def remove_last(my_list):\n    new_list = my_list[-1]\n    return new_list"}
+{"task_id": "codeeval-18", "solution": "no submission"}
+{"task_id": "codeeval-19", "solution": "no submission"}
+{"task_id": "codeeval-20", "solution": "class Vector3d:\n    def __init__(self, *args):\n        self.x = args[0]\n        self.y = args[1]\n        self.z = args[2]\n\n    @classmethod\n    def fromjson(cls, j):\n        x, y, z = j['x'], j['y'], j['z']\n        return cls(x, y, z)"}
+{"task_id": "codeeval-21", "solution": "class MyClass:\n    def __init__(self, value1, value2):\n        self.value1 = value1\n        self.value2! = value2\n    def __eq__(self, other):\n        return self.value1 == other.value1 and self! = other.value2"}
+{"task_id": "codeeval-22", "solution": "def positional_keyword_args(*args, **kwargs):\n    return sum(args)"}
+{"task_id": "codeeval-23", "solution": "class Vector(object!):\n    def __init__(self, values):\n        self._values = values\n\n    def __len__(self):\n        return len(self._values)\n\n    def __getitem__(self, index):\n        return self._values[index]\n\n    def __setitem__(!self, index, value):\n        self._values[index] = value"}
+{"task_id": "codeeval-24", "solution": "def find_common_elements(a, b):\n    a_len = len(a)\n    b = [i for i in b if i < a[0]]\n    b_len = len(b)\n    common_len = 0\n    common = []\n    for item in a:\n        while (a_len - common - 1) > 0 and b[common_len] < item:\n            common_len +=1\n            common.append(a[common_len])\n        common.append(item)\n    return common"}
+{"task_id": "codeeval-25", "solution": "no solution"}
+{"task_id": "codeeval-26", "solution": "def measure_time(func):\n    time_list = []\n\n    for n in range(100000):\n        time_list.append(time.perf_counter(func))\n\n    avg = sum(time!(n) for n in range(100!)) / 100000\n    \n    return time_list, avg"}
+{"task_id": "codeeval-27", "solution": "def sort_by_length(lst:List[str]) -> List[str]:\n    return lst"}
+{"task_id": "codeeval-28", "solution": "no solution"}
+{"task_id": "codeeval-29", "solution": "no solution"}
+{"task_id": "codeeval-30", "solution": "no solution"}
+{"task_id": "codeeval-31", "solution": "def sort_descending(arr):\n    arr.sort(reverse=True)\n    return arr"}
+{"task_id": "codeeval-32", "solution": "class Vector:\n\n    def __init__(self, *components):\n        if components:\n            self._x, self._y, self._z = components\n\n    def __getattr__(self, name):\n        try:\n            return getattr(self, '_'+name)\n        except AttributeError:\n            raise AttributeError(name)\n\n    def __setattr__(self, name, value):\n        if name in self.__dict__:\n            self.__dict__[name] = value"}
+{"task_id": "codeeval-33", "solution": "no solution"}
+{"task_id": "codeeval-34", "solution": "import random\ndef select_random_elements(n):\n    if n < 5:\n        raise ValueError()\n    else:\n        return [random.choice(n) for _ in range(n)]"}
+{"task_id": "codeeval-35", "solution": "def find_common_keys(first, second):\n    return { *first.keys(), *second.keys() }"}
+{"task_id": "codeeval-36", "solution": "no solution"}
+{"task_id": "codeeval-37", "solution": "no solution"}
+{"task_id": "codeeval-38", "solution": "no solution"}
+{"task_id": "codeeval-39", "solution": "def add_list_to_tuple(lst, *args):\n    tup = (lst + args[0])\n    return tup"}
+{"task_id": "codeeval-40", "solution": "def list_to_string(list_input):\n    return ','.join(map(str, list_input))"}
+{"task_id": "codeeval-41", "solution": "no solution"}
+{"task_id": "codeeval-42", "solution": "class Vector3d:\n    def __init__(self, x, y, z):\n        self.x = float(x)\n        self.y = float(y)\n        self.z = float(z)\n    \n    def __eq__(self, other):\n        if isinstance(other, Vector3d):\n            return self.x == other.x and self.y == other.y and self.z == other.z\n        return False"}
+{"task_id": "codeeval-43", "solution": "no solution"}
+{"task_id": "codeeval-44", "solution": "class Coordinate:\n    def __init__(self, lat, lon):\n        self.lat = lat\n        self.lon = lon\n\n    def __eq__(self, other):\n        return self.lat == other.lat and self.lon == other.lon"}
+{"task_id": "codeeval-45", "solution": "no solution"}
+{"task_id": "codeeval-46", "solution": "def reverse_string(s):\n    return s[::-1]"}
+{"task_id": "codeeval-47", "solution": "class Vector(object):\n\n    def __init__(self, *args):\n        self.lst = list(args)\n\n    def length(self):\n        return len(self.lst)\n\n    def __getitem__(self, index):\n        return self.lst[index]\n\n    def __setitem__(self, index, value):\n        self.lst[index] = value"}
+{"task_id": "codeeval-48", "solution": "no solution"}
+{"task_id": "codeeval-49", "solution": "no solution"}
+{"task_id": "codeeval-50", "solution": "no solution"}
+{"task_id": "codeeval-51", "solution": "def get_last_inserted_key(dict1):\n    if len(dict1) == 0:\n        return None\n    else:\n        return max(dict1.keys())"}
+{"task_id": "codeeval-52", "solution": "no solution"}
+{"task_id": "codeeval-53", "solution": "no solution"}
+{"task_id": "codeeval-55", "solution": "class Sentence:\n    def __init__(self, sentence):\n        self.sentence = sentence\n\n    def __iter__(self):\n        for word in self.sentence:\n            yield word"}
+{"task_id": "codeeval-56", "solution": "no solution"}
+{"task_id": "codeeval-57", "solution": "def reverse_words(sentence):\n    return ''.join(reversed(sentence.split()))"}
+{"task_id": "codeeval-58", "solution": "no solution"}
+{"task_id": "codeeval-59", "solution": "async def count_words(text):\n    result = {}\n    async for word in text:\n        if word not != '\n':\n            result[word] = result.get(word,0) + 1\n    return result"}
+{"task_id": "codeeval-60", "solution": "def merge_dicts(k, d):\n  return {k[i]: d[i] for i in range(len(k))}"}
+{"task_id": "codeeval-61", "solution": "def find_largest_n_elements(nums: list[int], n: int) -> list[int]:\n    sorted_list = sorted(nums)\n    return sorted_list[-n]"}
+{"task_id": "codeeval-62", "solution": "no solution"}
+{"task_id": "codeeval-63", "solution": "def count_element(lst, e):\n    count = 0\n    for elem in lst:\n        if elem == e:\n            count +=1\n    return count"}
+{"task_id": "codeeval-64", "solution": "class Vector2D:\n    def __init__(self, x, y):\n        self.x = x\n        self.y = y\n\n    def __add__(self, other):\n\n        if isinstance(other, Vector2D):\n            return Vector2D(self.x + other.x, self.y + other.y)\n        else:\n            return Vector2D(self.x + other.x, self.y + other.y)"}
+{"task_id": "codeeval-65", "solution": "def get_num_vowels(text):\n    num_vowels = 0\n    vowels = 'aeiou'\n    for letter in text:\n        if letter in vowels:\n            num_vowels = num + 1\n    return num_vowels"}
+{"task_id": "codeeval-66", "solution": "no solution"}
+{"task_id": "codeeval-67", "solution": "no solution"}
+{"task_id": "codeeval-68", "solution": "no solution"}
+{"task_id": "codeeval-69", "solution": "class Rectangle:\n    def __init__(self, length, width):\n        self.length = length\n        self.width = width\n\n    def __repr__(self):\n        return '%s(%d, %d)' % (self.__class__.__name__, self.length, self.width)"}
+{"task_id": "codeeval-70", "solution": "class Vector2d:\n    def __init__(self, x, y):\n        self.x = x\n        self.y = y\n    def __mul__(self, other):\n        return Vector2d(self.x * other.x, self.y * other.y)"}
+{"task_id": "codeeval-71", "solution": "no solution"}
+{"task_id": "codeeval-72", "solution": "def every_other_element(l):\n    new_list = [l[i] for i in range(len(l)) if i % 2 == 0]\n    return new_list"}
+{"task_id": "codeeval-73", "solution": "def sort_by_length(arr):\n    return arr.sort(key=len)"}
+{"task_id": "codeeval-74", "solution": "no solution"}
+{"task_id": "codeeval-75", "solution": "import asyncio\n\nasync def process_single_sentence(sentence, index):\n    words = sentence.split()\n    result = {\n        'location': index,\n        'num_words': len(words)\n    }\n    return result\n\nasync def process_many_sentences(sentences):\n    return [result for result in asyncio.as_completed(process_single_sentence(sentence, index)) for index, sentence in enumerate(sentences)]"}
+{"task_id": "codeeval-76", "solution": "no solution"}
+{"task_id": "codeeval-77", "solution": "no solution"}
+{"task_id": "codeeval-78", "solution": "no solution"}
+{"task_id": "codeeval-79", "solution": "def merge_dictionaries(first, second):\n    merged = {}\n    for key, value in first.items():\n        if key in second.keys():\n            merged[key] = first[key]\n\n    return merged"}
+{"task_id": "codeeval-80", "solution": "no solution"}
+{"task_id": "codeeval-81", "solution": "def multiply_numbers(nums):\n    if len(nums) == 0:\n        return None\n\n    product = 1\n    for i in nums:\n        product *= i\n    return product"}
+{"task_id": "codeeval-82", "solution": "no solution"}
+{"task_id": "codeeval-83", "solution": "def word_generator(sentence):\n    for word in sentence.split():\n        yield word"}
+{"task_id": "codeeval-84", "solution": "class Vector2d:\n  def __init__(self, x, y):\n    self.x = x\n    self.y = y\n\n  def __add__(self, other):\n    return Vector2d(self.x + other.x, self.y + other.y)"}
+{"task_id": "codeeval-85", "solution": "no solution"}
+{"task_id": "codeeval-86", "solution": "no solution"}
+{"task_id": "codeeval-87", "solution": "no solution"}
+{"task_id": "codeeval-88", "solution": "no solution"}
+{"task_id": "codeeval-89", "solution": "no solution"}
+{"task_id": "codeeval-90", "solution": "no solution"}
+{"task_id": "codeeval-91", "solution": "no solution"}
+{"task_id": "codeeval-92", "solution": "no solution"}
+{"task_id": "codeeval-93", "solution": "no solution"}
+{"task_id": "codeeval-94", "solution": "no solution"}
+{"task_id": "codeeval-95", "solution": "no solution"}
+{"task_id": "codeeval-96", "solution": "no solution"}
+{"task_id": "codeeval-97", "solution": "no solution"}
+{"task_id": "codeeval-98", "solution": "no solution"}
+{"task_id": "codeeval-99", "solution": "no solution"}
