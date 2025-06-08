@@ -68,17 +68,17 @@
       "email": "mohammad.mahoor@du.edu"
     }
   ],
-  "url": "https://zenodo.org/doi/10.5281/zenodo.11100072",
-  "version": "1.0.0",
+  "url": "https://doi.org/10.5281/zenodo.15620594",
+  "version": "2.0.0",
   "distribution": [
     {
       "@type": "cr:FileObject",
       "@id": "benchmark-file",
       "name": "benchmark-file",
       "description": "The dataset is hosted on Zenodo in a single JSONL file.",
-      "contentUrl": "https://zenodo.org/records/11100073/files/codeeval_v1.jsonl",
+      "contentUrl": "https://zenodo.org/records/15620594/files/codeeval_v1.jsonl?download=1",
       "encodingFormat": "application/jsonlines",
-      "sha256": "b0730787562a52d1e56a4790087aa68688d87994bbc9271e34ec50c3aa722425"
+      "sha256": "c398df61d4e946e8a6330b2aed964afc99467db62cba6ff1690d2831e00f8df9"
     }
   ],
   "recordSet": [
